@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         TextView Result = findViewById(R.id.Result);                                //references output to a java variable
 
         distanceCalc NewDistanceCalc = new distanceCalc();                          //creates a new distanceCalc class instance
-        Float Distance = NewDistanceCalc.calculateDistance(OriginLatitude,OriginLongitude,DestinationLatitude,DestinationLongitude);
+        Double Distance = NewDistanceCalc.calculateDistance(OriginLatitude,OriginLongitude,DestinationLatitude,DestinationLongitude);
         //calculates the distance between two coordinates in Meters
 
         CharSequence temp = "";

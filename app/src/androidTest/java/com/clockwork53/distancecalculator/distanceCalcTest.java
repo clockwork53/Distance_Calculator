@@ -34,7 +34,7 @@ public class distanceCalcTest {
 
     @Test
     public void calculateDistance()  {
-        float actual = distanceCalcInstance.calculateDistance(a,b,c,d);
+        double actual = distanceCalcInstance.calculateDistance(a,b,c,d);
         Assert.assertEquals(e,actual,DELTA);
     }
 

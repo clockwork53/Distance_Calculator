@@ -28,7 +28,7 @@ public class distanceCalc {
      * @param DesLo Destination longitude
      * @return distance between to locations
      */
-    public Float calculateDistance(Double OrgLa,Double OrgLo,Double DesLa,Double DesLo)
+    public Double calculateDistance(Double OrgLa,Double OrgLo,Double DesLa,Double DesLo)
     {
 
         Origin.setLatitude(OrgLa);
@@ -36,6 +36,6 @@ public class distanceCalc {
         Destination.setLatitude(DesLa);
         Destination.setLongitude(DesLo);
 
-        return Origin.distanceTo(Destination);
+        return (double) Origin.distanceTo(Destination);
     }
 }
