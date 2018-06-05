@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Distance Calculator</string>
+    <string name="originLatitude">Origin Latitude</string>
+    <string name="originLongitude">Origin Longitude</string>
+    <string name="destinationLatitude">Destination Latitude</string>
+    <string name="destinationLongitude">Destination Longitude</string>
+    <string-array name="unitType">
+        <item>Meters</item>
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+    <string name="calculateButton">Calculate</string>
+</resources>
