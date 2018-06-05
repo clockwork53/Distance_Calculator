@@ -11,12 +11,23 @@ public class distanceCalc {
 
     private Location Origin,Destination;
 
-    public distanceCalc()
+    /**
+     * constructor defines two Location data types provided by a dummy variable
+     */
+    distanceCalc()
     {
         Origin = new Location("dummy");
         Destination = new Location("dummy");
     }
 
+    /**
+     *
+     * @param OrgLa Origin latitude
+     * @param OrgLo Origin longitude
+     * @param DesLa Destination latitude
+     * @param DesLo Destination longitude
+     * @return distance between to locations
+     */
     public Float calculateDistance(Double OrgLa,Double OrgLo,Double DesLa,Double DesLo)
     {
 
@@ -28,4 +39,3 @@ public class distanceCalc {
         return Origin.distanceTo(Destination);
     }
 }
-//test new git lab
