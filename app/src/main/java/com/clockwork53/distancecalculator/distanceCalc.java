@@ -25,7 +25,7 @@ public class distanceCalc {
         Destination.setLatitude(DesLa);
         Destination.setLongitude(DesLo);
 
-        float Distance = Origin.distanceTo(Destination);
-        return Distance;
+        return Origin.distanceTo(Destination);
     }
 }
+//test new git lab
